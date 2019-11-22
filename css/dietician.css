@@ -1,0 +1,95 @@
+/** ========= GLOBAL STYLES ========= **/
+.bg-light-teal{background-color:#0baead;}
+body, .exalt-sidebar-menu, .loader{background:#297d14;}
+
+.spinner{background-color:#ffc100;}
+
+.logo-icon{width:105px;}
+.desktop-menu-btn{background-color:#ffc000;}
+.desktop-menu-btn:hover{background-color:#5dba47;}
+
+ul#menu-primary li a, .footer-social ul li a, .copyright-txt{color:#fff;}
+ul#menu-primary li:before{background:#fff;}
+ul#menu-primary{border-left:#b0bec5 1px solid;}
+ul#menu-primary li:hover a, ul#menu-primary li.active a, .footer-social ul li:hover a{color:#ffc100;}
+ul#menu-primary li:hover:before, ul#menu-primary li.active:before{background:#ffc100;}
+
+.hbanner-img:before, .slider-img:before{background:rgba(0, 0, 0, 0.5);}
+.hbanner-txt p{text-transform:uppercase; font-weight:normal;}
+
+.flat-btn{background-color:#5dba47;}
+.flat-btn:hover{background-color:#ffc100;}
+
+.down-btn{background:#5dba47;}
+.down-btn:hover{background:#ffc100;}
+
+.about-img img{border:none;}
+
+.appointment form{margin:0 -15px;}
+.appointment .a-field{margin-bottom:30px; float:left; width:50%; padding:0 15px;}
+.appointment .a-field.a-field2{width:100%;}
+.appointment .a-field input, .appointment .a-field select{display:block; width:100%; height:58px; background:#fff; border:none; padding:0 15px; font-size:14px; line-height:14px; color:#808080;}
+.appointment .a-field textarea{display:block; width:100%; height:164px; background:#fff; border:none; padding:15px; font-size:14px; line-height:14px; color:#808080;}
+.submit-btn{padding:0 15px; text-align:right;}
+.submit-btn input{display:inline-block; min-width:180px; height:58px; background:#0d447a; border:none; padding:15px 30px; font-size:18px; line-height:18px; color:#fff; text-transform:uppercase; text-align:center; cursor:pointer;}
+.calender-ico{position:relative;}
+.calender-ico input{padding-right:25px !important;}
+.calender-ico:after{position:absolute; content:"\f073"; font-family: "Font Awesome 5 Free"; right:25px; top:50%; transform:translate(0,-50%); color:#808080;}
+
+.appointment .a-field ::-webkit-input-placeholder{color:#808080;}
+.appointment .a-field ::-moz-placeholder{color:#808080;}
+.appointment .a-field :-ms-input-placeholder{color:#808080;}
+.appointment .a-field :-moz-placeholder{color:#808080;}
+
+.why-choose-box{margin-bottom:50px;}
+.why-choose-box p{margin-bottom:0;}
+.choose-icon{float:left; width:80px; height:80px; background:#fff; color:#5dba47; text-align:center; line-height:80px; border-radius:50%; font-size:36px; transition:0.3s;}
+.why-choose-box:hover .choose-icon{color:#0d447a;}
+.choose-text{padding-left:95px;}
+
+.behind-border-box:before{background:#ffc100;}
+.about-list li{float:left; width:50%; display:block; list-style:none; padding-left:35px; margin-bottom:25px; line-height:18px; position:relative;}
+.about-list li:before{position:absolute; content:"\f14a"; font-family: "Font Awesome 5 Free"; left:0; top:0; font-size:18px;}
+#about .flat-btn{background-color:#ffc100;}
+
+.toolbar button:hover, .toolbar button:focus{color:#0d447a;}
+.work-box{margin-bottom:0;}
+.work-box .hoverinfo a.prolink-icon{color:#5dba47;}
+.work-box .hoverinfo a.prolink-icon:hover{background-color:#5dba47;}
+
+.image-bg1{background-image:url(../images/dietician-bg1.jpg); background-repeat:no-repeat; background-position:center right; background-size:cover; position:relative;}
+.image-bg1:before{position:absolute; content:""; left:0; top:0; width:100%; height:100%; background:rgba(255, 156, 7, 0.9);}
+
+.image-bg2{background-image:url(../images/dietician-bg2.jpg); background-repeat:no-repeat; background-position:center right; background-size:cover; position:relative;}
+.image-bg2:before{position:absolute; content:""; left:0; top:0; width:100%; height:100%; background:rgba(243,100,56,0.9);}
+
+.image-bg3{background-image:url(../images/dietician-bg3.jpg); background-repeat:no-repeat; background-position:center right; background-size:cover; position:relative;}
+.image-bg3:before{position:absolute; content:""; left:0; top:0; width:100%; height:100%; background:rgba(13, 68, 122, 0.9);}
+
+.service-box2{margin-bottom:50px; text-align:center;}
+.service-box2 .service-icon2{width:80px; height:80px; margin:0 auto 17px; background:#fff; color:#5dba47; text-align:center; line-height:80px; border-radius:50%; font-size:36px; transition:0.3s;}
+
+.testimonial-box{border:#fff 2px solid; padding:15px; margin-bottom:30px; text-align:center;}
+.testi-img{width:80px; height:80px; border-radius:50%; -webkit-border-radius:50%; margin:0 auto 15px; border:#fff 2px solid;}
+ul.star-rating{margin:0; padding:0;}
+ul.star-rating li{display:inline-block; vertical-align:top; list-style:none;}
+
+.contact-icon2{height:60px; border:none; background:#fff; color:#ffc100; text-align:center; line-height:60px; border-radius:50%; font-size:24px; transition:0.3s;}
+.gmap.behind-border-box:before{background:#ffc100;}
+.contact-form .sent-btn input{color:#36739e;}
+
+@media only screen and (max-width:991px) {
+.hbanner-txt-bg{ width:420px; font-size:36px; line-height:48px;}
+}
+@media only screen and (max-width:640px) {
+.hbanner-txt{left:15px; right:15px;}
+.hbanner-txt-bg{ width:auto; font-size:30px; line-height:38px; padding:30px 15px;}
+}
+@media only screen and (max-width:480px) {
+.about-list li{float:none; width:100%;}
+.appointment .a-field{float:none; width:100%; margin-bottom:15px;}
+.submit-btn input{width:100%;}
+}
+@media only screen and (max-width:360px) {
+.why-choose-box, .service-box2{margin-bottom:30px;}
+}

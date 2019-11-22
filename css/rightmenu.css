@@ -1,0 +1,29 @@
+/** ========= GLOBAL STYLES ========= **/
+.exalt-sidebar-menu{position:fixed; top:0; left:auto; right:0; width:380px; height:100%; padding:25px 25px 0; z-index:99999; transition:all 0.3s;}
+.dmenu-close .exalt-sidebar-menu{left:auto; right:-380px;}
+
+.content-shrink{padding-left:0; padding-right:380px; width:100%; transition:all 0.3s; overflow-x:hidden; overflow-y:hidden;}
+.dmenu-close .content-shrink{padding-right:0;}
+
+.desktop-menu-btn{right:auto; left:0;}
+.dmenu-close .desktop-menu-btn{right:auto; left:-50px;}
+.mobile-menu-btn{right:auto; left:-50px;}
+
+.hbanner-logo{right:auto; left:8px;}
+
+@media only screen and (max-width:1580px) {
+.exalt-sidebar-menu{width:300px; padding:15px 15px 0;}
+.dmenu-close .exalt-sidebar-menu{left:auto; right:-300px;}
+.content-shrink{padding-left:0; padding-right:300px;}
+}
+@media only screen and (max-width:1280px) {
+.exalt-sidebar-menu{left:auto; right:-300px;}
+.content-shrink{padding-left:0; padding-right:0;}
+.exalt-sidebar-menu.active{left:auto; right:0;}
+}
+@media only screen and (max-width:767px) {
+.exalt-sidebar-menu{left:auto; right:-270px; width:270px;}
+}
+@media only screen and (max-width:359px) {
+.exalt-sidebar-menu.active .mobile-menu-btn{right:auto; left:0;}
+}
