@@ -1,0 +1,8 @@
+.intro-hobby-line:before{
+    position: absolute;
+    content: "";
+    width: 47px;
+    height: 1px;
+    margin-top: -10px;
+    background: #fff;
+}
