@@ -6,3 +6,12 @@
     margin-top: -10px;
     background: #fff;
 }
+.social-about-me ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+}
+
+.focial-about-me ul li a {
+    font-size: 15px;
+}
